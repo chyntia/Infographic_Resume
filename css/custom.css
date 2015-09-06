@@ -1,0 +1,226 @@
+/*
+Color Theme	: Settles Accent https://color.adobe.com/Settles-Accent-color-theme-2823250/edit/?copy=true
+rgba(234,96,69,1.0);/*color1
+rgba(248,202,77,1.0);/*color2
+rgba(245,229,292,1.0);/*color3
+rgba(63,86,102,1.0);/*color4
+rgba(47,52,64,1.0);/*color5
+*/
+/*========== General ==========*/
+.z-wide{
+	width				: 100%;
+}
+.z-clear{
+	clear				: both;
+}
+.z-right{
+	float				: right !important;
+}
+.z-no-padding{
+	padding				: 0;
+}
+/*========== Override ==========*/
+body{
+	background-color	: black;/*color0*/
+}
+h1, h2, h3, h4, h5, h6{	
+	color				: rgba(234,96,69,1.0);/*color1*/
+	font-family			: 'Poiret One' !important;/*fonthead*/	
+	margin				: 24px 0 15px 0;
+	padding				: 0;
+	clear				: both;
+}
+h1{
+	font-size			: 3em;	
+}
+h2{
+	font-size			: 2em;	
+}
+b{
+	display				: block;
+	padding				: 15px 0 9px 0;
+	clear				: both;
+	color				: rgba(63,86,102,1.0);/*color4*/
+}
+i.ion{
+	width				: 24px;
+	text-align			: center;
+}
+img{
+	background-color	: white;
+}
+/*========== Layout ==========*/
+.z-layer{
+	margin				: 0 auto;
+	width				: 780px;
+	height				: 1275px;
+	background-color	: white;/*color9*/
+	color				: rgba(63,86,102,0.85);/*color4*/
+	font-family			: 'Oswald' !important;/*fontbody*/		
+	z-index				: -10;
+	overflow			: hidden;
+}
+.z-main-left{
+	padding-top			: 12px;
+	padding-bottom		: 24px;
+	height				: 1240px;
+	background-color	: rgba(248,202,77,0);/*color2*/
+	z-index				: 3;
+}
+.z-main-right{
+	padding-top			: 12px;
+	padding-bottom		: 24px;
+	height				: 1240px;
+	background-color	: #ECF0F1;/*color6*/
+	z-index				: 1;
+}
+.z-footer{
+	padding				: 8px 0 7px 0;
+	background-color	: rgba(63,86,102,1.0);/*color4*/
+	color				: rgba(245,229,292,1.0);/*color3*/
+}
+/*========== Header ==========*/
+.z-name{
+	color				: white;/*color9*/
+	text-shadow			: 0 0 1px rgba(63,86,102,1.0);/*color4*/
+}
+.z-title{
+	font-size			: 1.25em;
+	letter-spacing		: 0.145em;
+	margin				: 18px 0 12px 0;
+	color				: rgba(63,86,102,1.0);/*color4*/
+}
+.z-personal{
+	margin				: 0 0 24px 0;	
+	color				: rgba(63,86,102,1.0);/*color4*/
+}
+.z-personal span{
+	padding				: 0 36px 0 0;
+}
+.z-personal i{
+	padding				: 0 8px 0 0;
+	text-align			: left;
+}
+.z-photo img{
+	margin				: 48px 0 0 0;
+	width				: 100%;
+	height				: 200px;
+}
+.z-tile{
+	width				: 100%;
+	text-align			: center;
+}
+.z-tile i{	
+	font-size			: 3em;
+}
+/*========== Skill ==========*/
+.z-skill-chart{
+	clear				: both;
+}
+.z-skill-point{
+	padding				: 0 2px 0 0 !important;	
+	text-align			: right
+}
+.z-skill-star{
+	padding				: 0 0 0 2px !important;
+}
+.z-skill-star i{
+	width				: 16px;
+	color				: rgba(248,202,77,1.0);/*color2*/
+}
+.z-skill-tag{
+	display				: block;
+	color				: rgba(63,86,102,0.85);/*color4*/
+}
+.z-skill-tag.highlight{
+	font-size			: 1.25em;
+	color				: rgba(63,86,102,1.0);/*color4*/
+}
+/*========== Language ==========*/
+.z-lang-chart img{
+	width				: 100%;
+	height				: 150px;
+}
+.z-lang-1{
+	color				: rgba(63,86,102,1.0);/*color4*/
+}
+.z-lang-2{
+	color				: rgba(248,202,77,1.0);/*color2*/
+}
+.z-lang-3{
+	color				: rgba(234,96,69,1.0);/*color1*/
+}
+/*========== Experience & Education ==========*/
+.timeline{
+	margin				: 0 0 0 -65%;	
+}
+.timeline dl dt{
+	width				: 60px;
+	background-color	: rgba(63,86,102,1.0);/*color4*/
+}
+.timeline dl dd .time{
+	color				: rgba(234,96,69,1.0);/*color1*/	
+}
+.timeline dl dd .circ{
+	background-color	: #ECF0F1;/*color6*/
+}
+img.events-object{
+	width				: 36px;
+	height				: 36px;
+	margin				: 0 0 9px 0;
+}
+.z-evt-icon{
+	padding				: 0 2px 0 0 !important;
+	text-align			: right;
+}
+.z-evt-content{
+	padding				: 0 0 0 2px !important;
+}
+.z-evt-content b{
+	padding				: 7px 0 5px 0;	
+}
+/*========== Footer ==========*/
+.z-link{
+	display				: block;
+	float				: right;
+	padding				: 0 0 0 15px;
+	color				: rgba(248,202,77,1.0);/*color2*/
+}
+/*========== Decoration ==========*/
+.z-decor-layer{
+	position			: absolute;
+	top					: 0;
+	left				: 240px;
+	height				: 2000px;
+	width				: 780px;
+	overflow			: hidden;	
+}
+.z-decor-line{
+	position			: absolute;
+	top					: 24px;
+	left				: 15px;
+	height				: 12px;
+	width				: 690px;
+	border-top			: 0px solid white;
+	border-bottom		: 0px solid white;
+	z-index				: 6 !important;	
+}
+.z-decor-arrow{
+	height				: 270px;
+	width				: 400px;
+	margin				: -45px 0 -270px -50px;
+	background-color	: rgba(248,202,77,1.0);/*color2*/
+	transform			: rotate(-7deg);
+	z-index				: -5;	
+}
+.z-decor-arrow::after{
+	position			: absolute;
+	top					: 230px;
+	left				: 50px;
+	height				: 48px;
+	width				: 48px;
+	background-color	: rgba(248,202,77,1.0);/*color2*/
+	content				: " ";
+	transform			: rotate(52deg);
+	z-index				: -3;	
+}
